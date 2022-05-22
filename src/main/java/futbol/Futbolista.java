@@ -19,9 +19,10 @@ public abstract class Futbolista implements Comparable<Object>{
 	///////////////
 	
 	public String toString() {
-		return "El futbolista" + nombre +
+		return "El futbolista " + nombre + 
 				" tiene " + edad + 
-				", y juega de " + posicion;	}
+				", y juega de " + posicion;
+	}
 	
 	public boolean equals(Futbolista futbolista) {
 		return this == futbolista;
